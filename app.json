@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Code Scanner App",
+    "slug": "CodeScanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/CodeScanner.png",
+    "splash": {
+      "image": "./assets/CodeScanner.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.testuser.CodeScanner"
+    },
+    "android": {
+      "package": "com.testuser.CodeScanner",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CodeScanner.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/CodeScanner.png"
+    }
+  }
+}
